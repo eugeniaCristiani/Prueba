@@ -4,6 +4,7 @@ class ResultItem {
 	String thumbnailURL
 	String permalink
 	String title
+	String description
 	
     static constraints = {
 		title(blank: false)
